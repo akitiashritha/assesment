@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* navbar */
+ .navbar-brand {
+  width:50px;
+  height:50px;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  text-decoration-color: fff;
+}
+/* image decoration */
+.title-image{
+  display: block;
+      position: absolute;
+      width: 550.99999389px;
+      height: 400px;
+      margin-left: -80px;
+      left: 30%;
+      top: 10px;
+      z-index: 1;
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+/* <!-- description --> */
+.list{
+  display:flex;
+  align-items:center;
+  padding-top:30px;
+  font-family:"Lato";
+
+}
+.list ul{
+  z-index:2;
+   
+  }
+ .list ul li{
+   margin:0;
+   display:inline-block;
+   font-family:"Montserrat";
+   font-size:15px;
+   flex-basis: 10%;
+ }
+ h3{
+    text-align:center; 
+    font-family:"Playfair Display";
+ }
+
+/* rating */
+
+ .rating{
+  display:flex;
+  align-items:center;
+  padding-top:5px;
+ }
+ .rating ul {
+  z-index:2;
+  border:4px solid orange;
+  padding:0px 10px 10px 10px;
+ }
+ .rating ul li{
+  margin:0;
+  display:inline-block;
+  font-family:"Montserrat";
+  font-size:15px;
+  flex-basis: 10%;
+ 
+ }
+ /* paragraph-decoration */
+ .mr-1{
+  font-size:30px;
+  text-align:center;
+  
+ }
+ .pt-1{
+ font-size:15px;
+ font-family:"lato";  
+ }
+ /* footer paragraph */
+ .footer-paragraph{
+  font-size:16px;
+  font-family:"Lato";
+   
+ }
+ .white-section {
+  display:none;
+  
+   
+}
+
+@media (max-width: 1028px) {
+  .white-section {
+    background-color: #fff;
+    min-width: 10px;
+    
+     
+  }
+  .container{
+    background-color: white;
+  }
+  #title {
+    text-align: center;
+  }
+  .second{
+    text-align:center;
+  }
+  .title-image {
+    position: static;
+    width: 255.99999389px;
+    height: 200px;
+    margin-left: 75px;
+    left: 12%;
+    top: 0px;
+    transform: rotate(0);
+    background-color: white;
+  }
+}
